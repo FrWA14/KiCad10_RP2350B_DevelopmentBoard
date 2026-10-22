@@ -35,7 +35,7 @@ Le dossier `production/` contient les fichiers pour JLCPCB : `RP2350_corrected.z
 (Gerbers et perçages, avec sérigraphie couleur), `bom.csv`, `positions.csv`, ainsi que
 les aperçus des deux faces.
 
-La sérigraphie couleur est générée avec le plugin Fabrication Toolkit Color. Ses réglages
+La sérigraphie couleur est générée avec le plugin [Fabrication Toolkit Color](https://github.com/FrWA14/KiCad10_Fabrication-Toolkit-Color). Ses réglages
 sont dans `fabrication-toolkit-options.json` et les images sources dans `Image/`.
 À la commande : PCB blanc, finition ENIG, option « EasyEDA multi-color silkscreen ».
 
