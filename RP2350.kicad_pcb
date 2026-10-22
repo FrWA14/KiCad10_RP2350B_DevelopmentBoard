@@ -13024,15 +13024,15 @@
 			(uuid "2292ddd7-90fa-4294-9bf6-92ee487d18e7")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/libs/3dmodels/L_0806_2016Metric.step"
+		(model "${KIPRJMOD}/libs/3dmodels/L_0805_2012Metric.step"
 			(offset
-				(xyz 0 0 0)
+				(xyz 0 0.65 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 0 0)
+				(xyz -90 -0 -0)
 			)
 		)
 	)

@@ -8,6 +8,13 @@ Carte basée sur le microcontrôleur RP2350B (QFN-80) de Raspberry Pi, conçue s
 
 ![Vue 3D](Image/kicad_3Dview.png)
 
+## Modèle 3D
+
+- [`RP2350.stl`](RP2350.stl) : cliquer dessus pour faire tourner la carte en 3D directement
+  sur GitHub.
+- [`RP2350.step`](RP2350.step) : modèle complet (carte et composants) pour FreeCAD,
+  Fusion 360, SolidWorks, etc.
+
 ## Ouvrir le projet
 
 Ouvrir `RP2350.kicad_pro` avec KiCad 10. Le projet est autonome : aucune bibliothèque
@@ -20,7 +27,7 @@ Ouvrir `RP2350.kicad_pro` avec KiCad 10. Le projet est autonome : aucune bibliot
 Les tables `sym-lib-table` et `fp-lib-table` du projet déclarent ces bibliothèques en
 chemin relatif.
 
-Le modèle 3D de l'inductance L1 (`L_0806_2016Metric`) n'est pas fourni.
+L'inductance L1 (empreinte 0806) utilise le modèle 3D d'une 0805 (`L_0805_2012Metric`).
 
 ## Fabrication
 
