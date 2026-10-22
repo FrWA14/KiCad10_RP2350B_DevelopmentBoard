@@ -1,0 +1,21 @@
+# Fichiers locaux et sauvegardes KiCad
+*.lck
+*.kicad_prl
+fp-info-cache
+*-backups/
+production/backups/
+_autosave-*
+\#auto_saved_files\#
+*.bak
+
+# Images non utilisées par le projet
+Image/*
+!Image/kicad_PCDeditor.png
+!Image/kicad_PCBshematic.png
+!Image/kicad_3Dview.png
+!Image/PAC_Multimetre.png
+!Image/back.png
+
+# Rapports générés contenant des chemins locaux
+production/*.json
+production/*.log
